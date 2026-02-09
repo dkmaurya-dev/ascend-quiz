@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+body { background: #f7f7f9; color: #222; }
+
+.panel { background: #fff; padding: 16px; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.06); }
+
+button { padding: 8px 12px; border-radius: 6px; background: #2563eb; color: white; border: none; cursor: pointer; }
+button[disabled] { opacity: 0.6; cursor: not-allowed; }

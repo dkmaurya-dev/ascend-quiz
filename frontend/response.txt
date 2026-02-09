@@ -1,0 +1,254 @@
+[
+    {
+        "question": "According to the provided list, which algorithm is suggested for finding the subarray with the maximum sum?",
+        "options": [
+            "Dutch National Flag algorithm",
+            "Kadane’s Algorithm",
+            "Merge Sort",
+            "Two-pointer approach"
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage explicitly lists problem 27 as 'Find the subarray with maximum sum (Kadane’s Algorithm)' and includes the hint 'Use Kadane’s Algorithm with O(n) time.'",
+        "cognitive_level": "Recall",
+        "estimated_correct_pct": 90,
+        "extra": null
+    },
+    {
+        "question": "Into which difficulty category does the problem 'Find largest rectangle in a histogram' fall?",
+        "options": [
+            "Easy Problems",
+            "Medium Problems",
+            "Hard Problems",
+            "It is not listed in the passage"
+        ],
+        "correct_answer": "C",
+        "explanation": "Problem #66, 'Find largest rectangle in a histogram,' is listed under the 'Hard Problems (61-100)' section of the passage.",
+        "cognitive_level": "Comprehension",
+        "estimated_correct_pct": 85,
+        "extra": null
+    },
+    {
+        "question": "What hint is provided for the problem 'Remove duplicates from an array'?",
+        "options": [
+            "Swap elements from start and end moving towards the middle.",
+            "Use a set or hashing to remove duplicates efficiently.",
+            "Two-pointer approach: move non-zero forward.",
+            "Use Kadane’s Algorithm with O(n) time."
+        ],
+        "correct_answer": "B",
+        "explanation": "The passage lists problem 15 as 'Remove duplicates from an array' and provides the specific hint: 'Use a set or hashing to remove duplicates efficiently.'",
+        "cognitive_level": "Recall",
+        "estimated_correct_pct": 95,
+        "extra": null
+    },
+    {
+        "question": "Which of the following problems is explicitly named after a real-world object or concept in the provided text?",
+        "options": [
+            "Find all leaders in an array",
+            "Find a peak element",
+            "Find maximum area of water container",
+            "Sort an array of 0s, 1s, and 2s (Dutch National Flag problem)"
+        ],
+        "correct_answer": "D",
+        "explanation": "Problem #38, 'Sort an array of 0s, 1s, and 2s,' is explicitly subtitled with '(Dutch National Flag problem)', which is named after the flag of the Netherlands.",
+        "cognitive_level": "Analysis",
+        "estimated_correct_pct": 75,
+        "extra": null
+    },
+    {
+        "question": "What is the description for problem #59 in the 'Medium Problems' section?",
+        "options": [
+            "Find minimum length subarray with sum ≥ target",
+            "Find equilibrium index (sum of left = sum of right)",
+            "Rotate array by K positions",
+            "Replace each element with product of other elements"
+        ],
+        "correct_answer": "C",
+        "explanation": "The passage lists problem #59 as 'Rotate array by K positions' within the Medium Problems category.",
+        "cognitive_level": "Recall",
+        "estimated_correct_pct": 80,
+        "extra": null
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "status": "success",
+  "total_questions": 5,
+  "difficulty_distribution": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 1,
+    "6": 0,
+    "7": 0,
+    "8": 0
+  },
+  "sample_questions": [
+    {
+      "question": "According to the provided list, what algorithm is suggested as a hint for solving the 'Find the subarray with maximum sum' problem?",
+      "options": [
+        "Dutch National Flag algorithm",
+        "Kadane’s Algorithm",
+        "Merge Sort",
+        "Two-pointer approach"
+      ],
+      "answer": "Kadane’s Algorithm",
+      "cognitive_level": "Remember",
+      "estimated_correct_pct": 90,
+      "difficulty_label": 1
+    },
+    {
+      "question": "What is the primary difference between problem #4 ('Reverse an array') and problem #23 ('Print the array in reverse order without modifying it')?",
+      "options": [
+        "Problem #4 is more computationally complex than problem #23.",
+        "Problem #4 permanently alters the original array's structure, while problem #23 does not.",
+        "Problem #4 works only on numbers, while problem #23 works on any data type.",
+        "There is no significant difference; they describe the same task."
+      ],
+      "answer": "Problem #4 permanently alters the original array's structure, while problem #23 does not.",
+      "cognitive_level": "Understand",
+      "estimated_correct_pct": 85,
+      "difficulty_label": 2
+    },
+    {
+      "question": "A programmer is given the array `[0, 5, 0, 2, 8]` and is tasked with transforming it into `[5, 2, 8, 0, 0]`. Which problem from the list directly addresses this task?",
+      "options": [
+        "38. Sort an array of 0s, 1s, and 2s",
+        "30. Move all zeros to the end",
+        "59. Rotate array by K positions",
+        "44. Rearrange array so that arr[i] = i if possible"
+      ],
+      "answer": "30. Move all zeros to the end",
+      "cognitive_level": "Apply",
+      "estimated_correct_pct": 80,
+      "difficulty_label": 3
+    },
+    {
+      "question": "Which of the following pairs of problems share a common underlying data structure or algorithmic approach, as suggested by their hints in the passage?",
+      "options": [
+        "27 (Kadane’s Algorithm) and 38 (Dutch National Flag problem)",
+        "63 (Count inversions) and 66 (Largest rectangle in a histogram)",
+        "15 (Remove duplicates) and 42 (Find the longest consecutive sequence)",
+        "30 (Move all zeros to the end) and 55 (Find a peak element)"
+      ],
+      "answer": "15 (Remove duplicates) and 42 (Find the longest consecutive sequence)",
+      "cognitive_level": "Analyze",
+      "estimated_correct_pct": 65,
+      "difficulty_label": 4
+    },
+    {
+      "question": "Considering the difficulty categorization (Easy, Medium, Hard), which of the listed 'Hard' problems likely has the highest time complexity and would be least suitable for real-time processing on very large arrays?",
+      "options": [
+        "68. Rearrange array in alternating positive and negative",
+        "78. Find triplets that sum to zero (3Sum problem)",
+        "93. Find all combinations that sum to target",
+        "69. Find next greater element for each element"
+      ],
+      "answer": "93. Find all combinations that sum to target",
+      "cognitive_level": "Evaluate",
+      "estimated_correct_pct": 50,
+      "difficulty_label": 5
+    }
+  ],
+  "invalid_count": 0
+}
+
+
+
+
+
+
+
+
+
+
+[
+    {
+      "question": "An algorithm is designed to identify a 'majority element' in an array. What condition must an element satisfy to be classified as the majority element?",
+      "options": [
+        "A. It must be the element with the highest value in the array.",
+        "B. It must appear more times than any other unique element.",
+        "C. It must appear in more than half of the array's positions.",
+        "D. It must be located at the median index after the array is sorted."
+      ],
+      "correct_answer": "C",
+      "explanation": "The correct answer is C. The standard definition of a majority element in an array of size N is an element that appears more than N/2 times. This is a specific threshold that distinguishes it from simply being the most frequent element (the mode).\n\nA is incorrect because the majority element is about frequency, not value. The largest number might only appear once.\nB is incorrect because this defines the mode of the array, not the majority element. For example, in `[1, 1, 2, 2, 3]`, both 1 and 2 are modes, but there is no majority element.\nD is incorrect because while the majority element will be the median if the array is sorted, being at the median index is not the defining condition; it's a consequence of the frequency condition.",
+      "cognitive_level": "Remember",
+      "estimated_correct_pct": 90,
+      "reasoning": "This is a direct definition recall. The options are designed to distinguish the specific definition of 'majority element' from related but incorrect concepts like 'maximum', 'mode', and 'median'.",
+      "difficulty_label": 1
+    },
+    {
+      "question": "Which of the following procedures correctly determines if a numerical array is sorted in ascending order?",
+      "options": [
+        "A. Compare the first and last elements; if the first is smaller, the array is sorted.",
+        "B. Iterate from the second element, comparing each element to the one immediately preceding it.",
+        "C. Calculate the sum of all elements and divide by the count to check for a positive average.",
+        "D. Ensure that every element is smaller than the maximum value found in the array."
+      ],
+      "correct_answer": "B",
+      "explanation": "The correct answer is B. To verify that an array is sorted in ascending order, you must check the local ordering property for all adjacent pairs. This means iterating from the second element (index 1) to the end and confirming that `array[i] >= array[i-1]` for all `i`. If this condition ever fails, the array is not sorted.\n\nA is incorrect because it only checks the endpoints. The array `[1, 5, 2, 8]` satisfies this condition but is not sorted.\nC is incorrect because the average value has no bearing on the sorted order of the elements.\nD is incorrect because this condition is true for any array except one with all identical elements; it does not imply sorted order.",
+      "cognitive_level": "Remember",
+      "estimated_correct_pct": 95,
+      "reasoning": "This question tests the fundamental logic of checking for a sorted property. The distractors represent common logical fallacies (endpoint checking, irrelevant calculations) that a student with a basic understanding of iteration and comparison would avoid.",
+      "difficulty_label": 1
+    },
+    {
+      "question": "In the context of array manipulation, what defines a 'leader' element?",
+      "options": [
+        "A. An element that is greater than or equal to all other elements in the entire array.",
+        "B. An element that is strictly greater than all the elements located to its right.",
+        "C. An element whose value is equal to its index in the array, i.e., arr[i] = i.",
+        "D. An element that appears more frequently than any other element in its subarray."
+      ],
+      "correct_answer": "B",
+      "explanation": "The correct answer is B. A 'leader' in an array is formally defined as an element which is strictly greater than all of the elements that come after it in the array. The rightmost element is always considered a leader by definition, as there are no elements to its right.\n\nA describes the maximum element of the array, which is a different concept. An array can have multiple leaders but only one maximum value (unless there are duplicates of the max).\nC describes a fixed-point element, a completely different array property.\nD describes a local mode, which is related to frequency, not value comparison with subsequent elements.",
+      "cognitive_level": "Remember",
+      "estimated_correct_pct": 88,
+      "reasoning": "This is a definition-based question. The distractors are plausible-sounding definitions of other special types of array elements, requiring the student to recall the specific definition of a 'leader'.",
+      "difficulty_label": 2
+    },
+    {
+      "question": "When rotating an array of size N to the left by one position, what is the resulting state of the elements?",
+      "options": [
+        "A. The first element moves to the second position, the second to the third, and so on, with the last element wrapping around to the first position.",
+        "B. The last element is removed and inserted at the beginning of the array, shifting all other elements one position to the right.",
+        "C. Each element at index `i` moves to index `i-1`, and the original first element moves to the last position in the array.",
+        "D. The entire array is reversed, with the first element becoming the last and the last element becoming the first."
+      ],
+      "correct_answer": "C",
+      "explanation": "The correct answer is C. A single left rotation involves shifting every element one spot to the left. This means the element at `arr[1]` moves to `arr[0]`, `arr[2]` moves to `arr[1]`, and so on. The element that was originally at the beginning (`arr[0]`) has nowhere to its left to go, so it 'wraps around' to the end of the array, becoming the new `arr[N-1]`.\n\nA describes an incorrect shift pattern.\nB accurately describes a right rotation by one position, not a left rotation.\nD describes reversing the array, which is a different operation from rotation.",
+      "cognitive_level": "Remember",
+      "estimated_correct_pct": 92,
+      "reasoning": "This question tests the basic understanding of a simple array manipulation. The primary distractor (B) correctly describes the opposite operation (right rotation), which is a common point of confusion.",
+      "difficulty_label": 1
+    },
+    {
+      "question": "What is the primary purpose of using a hash set or a similar hashing-based data structure when removing duplicate elements from an array?",
+      "options": [
+        "A. To sort the elements in ascending order, which groups the duplicates together for easy removal.",
+        "B. To provide efficient, near-constant time O(1) lookups to check if an element has been seen before.",
+        "C. To count the frequency of each element, allowing removal of those with counts greater than one.",
+        "D. To store elements in a way that automatically maintains the original relative order of the unique items."
+      ],
+      "correct_answer": "B",
+      "explanation": "The correct answer is B. The main advantage of a hash set in this context is its performance. As you iterate through the original array, you can check for the existence of the current element in the hash set. This check operation averages O(1) time. If the element is not in the set, you add it to the set and to your result array. This makes the overall process very efficient, typically O(n).\n\nA describes a sorting-based approach, which is a valid but different method that usually has O(n log n) time complexity.\nC describes using a hash map (or dictionary) to count frequencies, which is also a valid method but is slightly more complex than simply checking for existence with a set.\nD is incorrect because standard hash sets do not preserve insertion order. A different data structure, like a linked hash set, would be needed for that specific feature.",
+      "cognitive_level": "Understand",
+      "estimated_correct_pct": 85,
+      "reasoning": "This question moves beyond simple recall to ask *why* a particular tool (a hash set) is used for a common problem. It requires understanding the performance characteristics of the data structure. The distractors describe alternative, valid-but-different approaches.",
+      "difficulty_label": 2
+    }
+  ]
